@@ -39,7 +39,7 @@
     </style>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -48,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Portfolio</a>
+                <a class="navbar-brand" href="#">GoldFish's Garden</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -57,41 +57,69 @@
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div class="row content">
-            <div class="col-sm-2 sidenav">
-                <ul class="nav nav-pills nav-stacked">
-                    <li class="active"><a href="#section1">非洲紫羅蘭屬</a></li>
-                    <li><a href="#section4">岩桐屬</a></li>
+    <div class="container">
+        <div class="row">
+            <nav class="col-sm-3" id="myScrollspy">
+                <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+                    <li><a href="#section1">非洲紫羅蘭屬</a></li>
+                    <li><a href="#section2">岩桐屬</a></li>
                     <li><a href="#section3">角桐草屬</a></li>
-                    <li><a href="#section3">喜蔭屬</a></li>
-                    <li><a href="#section3">秋海棠屬</a></li>
-                    <li><a href="#section3">風雨蘭屬</a></li>
-                    <li><a href="#section3">蔷薇属</a></li>
-                    <li><a href="#section3">酢漿草屬</a></li>
-                    <li> <a href="#section3">球根類</a></li>
-                    <li><a href="#section3">球蘭屬</a></li>
-                    <li><a href="#section3">鳳仙花屬</a></li>
-                    <li><a href="#section3">多肉植物</a></li>
+                    <li><a href="#section4">喜蔭屬</a></li>
+                    <li><a href="#section5">秋海棠屬</a></li>
+                    <!--                     <li><a href="#section6">風雨蘭屬</a></li>
+                    <li><a href="#section7">蔷薇属</a></li>
+                    <li><a href="#section8">酢漿草屬</a></li>
+                    <li><a href="#section9">球根類</a></li>
+                    <li><a href="#section10">球蘭屬</a></li>
+                    <li><a href="#section11">鳳仙花屬</a></li>
+                    <li><a href="#section12">多肉植物</a></li> -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">其他 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#section61">室內其他</a></li>
+                            <li><a href="#section62">室外其他</a></li>
+                        </ul>
+                    </li>
                 </ul>
-                <br>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search Blog..">
-                    <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                    </span>
-                </div>
-            </div>
+            </nav>
             <div class="col-sm-9">
-                <div class=" container-fluid bg-3 text-center ">
+                <div id="section1" class=" container-fluid bg-3 text-center ">
+                    <h1> 非洲紫羅蘭屬</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/rose1.jpg">
+                                    <img src="./pimages/rose1.jpg" alt="Rose" style="width:100%">
+                                    <div class="caption">
+                                        <p>玫瑰花-秋脂</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/rose2.jpg">
+                                    <img src="./pimages/rose2.jpg" alt="Nature" style="width:100%">
+                                    <div class="caption">
+                                        <p>玫瑰花-紐曼</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/rose3.jpg">
+                                    <img src="./pimages/rose3.jpg" alt="Fjords" style="width:100%">
+                                    <div class="caption">
+                                        <p>玫瑰花-瑞典女王</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="thumbnail">
@@ -125,17 +153,49 @@
                         </div>
                     </div>
                 </div>
-                <br>
-                <div class="container-fluid bg-3 text-center ">
-                    <div class="row">
+                <div id="section2" class=" container-fluid bg-3 text-center ">
+                    <h1> 岩桐屬</h1>
+                    <div class="row ">
+                        <div class="col-md-4 ">
+                            <div class="thumbnail ">
+                                <a href="./pimages/sinn1.jpg ">
+                                    <img src="./pimages/sinn1.jpg "" alt="Lights" style="width:100%">
+                                <div class="caption">
+                                   <p>大岩桐</p>
+                                 </div>
+                                 </a>
+                            </div>
+                        </div>
                         <div class="col-md-4">
                             <div class="thumbnail">
-                                <a href="./pimages/sinn1.jpg">
-                                    <img src="./pimages/sinn1.jpg "" alt="Lights" style="width:100%">
+                                <a href="./pimages/c1.jpg">
+                                    <img src="./pimages/c1.jpg" alt="Nature" style="width:100%">
+                                    <div class="caption">
+                                        <p>仙人柱</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/sinn2.jpg">
+                                    <img src="./pimages/sinn2.jpg" alt="Fjords" style="width:100%">
                                     <div class="caption">
                                         <p>大岩桐</p>
                                     </div>
                                 </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-4 ">
+                            <div class="thumbnail ">
+                                <a href="./pimages/sinn1.jpg ">
+                                    <img src="./pimages/sinn1.jpg "" alt="Lights" style="width:100%">
+                                <div class="caption">
+                                   <p>大岩桐</p>
+                                 </div>
+                                 </a>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -160,7 +220,148 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid bg-3 text-center ">
+                <div id="section3" class="container-fluid bg-3 text-center ">
+                    <h1>角桐草屬</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/z1.jpg">
+                                    <img src="./pimages/z1.jpg" alt="Lights" style="width:100%">
+                                    <div class="caption">
+                                        <p>風雨蘭</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/z2.jpg">
+                                    <img src="./pimages/z2.jpg" alt="Nature" style="width:100%">
+                                    <div class="caption">
+                                        <p>風雨蘭</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/b1.jpg">
+                                    <img src="./pimages/b1.jpg" alt="Fjords" style="width:100%">
+                                    <div class="caption">
+                                        <p>秋海棠</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="section4" class="container-fluid bg-3 text-center ">
+                    <h1>喜蔭屬</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/z1.jpg">
+                                    <img src="./pimages/z1.jpg" alt="Lights" style="width:100%">
+                                    <div class="caption">
+                                        <p>風雨蘭</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/z2.jpg">
+                                    <img src="./pimages/z2.jpg" alt="Nature" style="width:100%">
+                                    <div class="caption">
+                                        <p>風雨蘭</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/b1.jpg">
+                                    <img src="./pimages/b1.jpg" alt="Fjords" style="width:100%">
+                                    <div class="caption">
+                                        <p>秋海棠</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="section5" class="container-fluid bg-3 text-center ">
+                    <h1>秋海棠屬</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/z1.jpg">
+                                    <img src="./pimages/z1.jpg" alt="Lights" style="width:100%">
+                                    <div class="caption">
+                                        <p>風雨蘭</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/z2.jpg">
+                                    <img src="./pimages/z2.jpg" alt="Nature" style="width:100%">
+                                    <div class="caption">
+                                        <p>風雨蘭</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/b1.jpg">
+                                    <img src="./pimages/b1.jpg" alt="Fjords" style="width:100%">
+                                    <div class="caption">
+                                        <p>秋海棠</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="section61" class="container-fluid bg-3 text-center ">
+                    <h1>室內其他</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/z1.jpg">
+                                    <img src="./pimages/z1.jpg" alt="Lights" style="width:100%">
+                                    <div class="caption">
+                                        <p>風雨蘭</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/z2.jpg">
+                                    <img src="./pimages/z2.jpg" alt="Nature" style="width:100%">
+                                    <div class="caption">
+                                        <p>風雨蘭</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="./pimages/b1.jpg">
+                                    <img src="./pimages/b1.jpg" alt="Fjords" style="width:100%">
+                                    <div class="caption">
+                                        <p>秋海棠</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="section62" class="container-fluid bg-3 text-center ">
+                    <h1>室外其他</h1>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="thumbnail">
@@ -195,7 +396,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-1 sidenav">
+            <!--        <div class="col-sm-1 sidenav">
                 <ul class="nav nav-pills nav-stacked">
                     <li class="active"><a href="#section1">1月</a></li>
                     <li><a href="#section4">2月</a></li>
@@ -211,21 +412,14 @@
                     <li><a href="#section3">12月</a></li>
                 </ul>
                 <br>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search Blog..">
-                    <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                    </span>
-                </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </body>
 <br>
 <footer class="container-fluid text-center ">
-    <p>Footer Text</p>
+    <h1>Thank you for visiting!</h1>
+    <p> &copy Huan 2017</p>
 </footer>
 </body>
 
